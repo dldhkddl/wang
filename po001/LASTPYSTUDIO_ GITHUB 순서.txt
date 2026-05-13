@@ -1,0 +1,29 @@
+1. 가져오기 (Pull) : "남들이 뭐 했는지 보자"
+
+매일! 작업시작전에 컴터키고 코딩시작전! 무조건!
+
+git pull https://github.com/littlejin7/lastpy_studio.git
+(만들어둔 develop 브랜치에서 최신본을 가져오는겁니다)
+
+
+2. 내 컴터에서 작업
+내 컴터에서 수정하고 "나 이만큼했어" 도장찍는 과정
+
+git add .   (수정파일 장바구니 담는 격)
+
+git commit -m '메세지'
+(메세지는 보통 날짜&수정1 ,2 3  등등 수정 몇번째인지  예) 20260129ver2
+
+3. ★git허브로 쏘기(push) ★ 
+내컴텅에서 도장찍은 파일 서버에 올리기
+
+git push origin feature/내이름(hyewon) 
+
+
+🔄 7명이서 일하는 '무한 반복' 흐름도
+
+1. pull
+2. code & comit
+3. push
+4. pull request (각자 올린거 팀장이 merge)
+그리고 다시 다음날 또 그 뭉친코드 받아가기
